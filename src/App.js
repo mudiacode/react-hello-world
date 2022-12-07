@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Hello />
+      <Desc />
+    </div>
+  );
+}
+
+function Hello() {
+  const greeting = "Hello World!";
+
+  return (
+    <div>
+      <h1>{greeting}</h1>
+    </div>
+  );
+}
+
+function Desc() {
+  const title = "Description";
+  return (
+    <div className='desc'>
+      <h2>{title}</h2>
+      <p>
+        This is my first react app. Hope you like it. It's pretty barebones...
+      </p>
     </div>
   );
 }
