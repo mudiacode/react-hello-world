@@ -1,12 +1,28 @@
 * {
-    background-color: wheat;
+  background-color: #202124;
 }
 
 h1 {
+  color: white;
   text-align: center;
-  text-decoration: underline;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.desc-title {
+  font-size: 0.8rem;
+  color: white;
+  border: 0.1rem solid grey;
+  border-radius: 0.8rem;
+  padding: 0.4rem;
+  background-color: grey;
 }
 
 .desc {
   text-align: center;
+}
+
+p {
+  color: white;
+  margin-top: 2rem;
 }

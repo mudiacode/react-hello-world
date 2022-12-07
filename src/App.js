@@ -22,8 +22,10 @@ function Hello() {
 function Desc() {
   const title = "Description";
   return (
-    <div className='desc'>
-      <h2>{title}</h2>
+    <div className="desc">
+      <h2>
+        <span className="desc-title">{title}</span>
+      </h2>
       <p>
         This is my first react app. Hope you like it. It's pretty barebones...
       </p>
