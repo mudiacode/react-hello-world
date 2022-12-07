@@ -78,16 +78,7 @@ p {
   width: 17rem;
 }
 
-.click-me {
-  align-items: center;
-  display: block;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  color: #1d1d1d;
-  background-color: grey;
-  margin-top: 3rem;
-  border: none;
-  border-radius: 0.8rem;
-  padding: 0.4rem;
+.clickMe {
+  text-align: center;
+  font-family: "JetBrains Mono", monospace;
 }

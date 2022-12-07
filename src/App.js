@@ -7,6 +7,7 @@ function App() {
       <Hello />
       <Desc />
       <Luffy />
+      <ClickMe />
       <Footer />
     </div>
   );
@@ -51,6 +52,15 @@ function Luffy() {
       <button className="luffy-button" type="submit">
         <img className="luffy" src={luffy} alt="buttonpng" />
       </button>
+    </div>
+  );
+}
+
+function ClickMe() {
+  const click = "click on me!";
+  return (
+    <div>
+      <p className='clickMe'>{click}</p>
     </div>
   );
 }
