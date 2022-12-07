@@ -1,16 +1,19 @@
 import "./App.css";
+import luffy from "./images/luffy.png";
 
 function App() {
   return (
     <div className="app">
       <Hello />
       <Desc />
+      <Luffy />
+      <Footer />
     </div>
   );
 }
 
 function Hello() {
-  const greeting = "Hello World!";
+  const greeting = "Hello New World!";
 
   return (
     <div>
@@ -33,4 +36,25 @@ function Desc() {
   );
 }
 
+function Footer() {
+  const footer = "Created by Mudia Osagie ©";
+  return (
+    <div className="foo-center">
+      <p className="foo">{footer}</p>
+    </div>
+  );
+}
+
+function Luffy() {
+  return (
+    <div>
+      <button className="luffy-button" type="submit">
+        <img className="luffy" src={luffy} alt="buttonpng" />
+      </button>
+    </div>
+  );
+}
+
 export default App;
+
+//TODO: make onclick function when button is clicked luffy will be colored and play One Piece music
