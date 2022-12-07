@@ -1,4 +1,6 @@
 ## Hello World React App
 
-Practiciing react
+Practicing react
 
+- [x] turn button into image
+- [ ] create onClick to change class of button when clicked
